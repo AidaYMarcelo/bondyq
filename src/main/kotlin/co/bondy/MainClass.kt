@@ -1,5 +1,9 @@
+package co.bondy
+
 class MainClass {
-    fun main(args : Array<String>) {
-        println("Hello, world!")
+    companion object {
+        @JvmStatic fun main(args: Array<String>) {
+            println("Hello, world!")
+        }
     }
 }
